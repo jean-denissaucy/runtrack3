@@ -3,12 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Job 2 - JSON Value Key</title>
 </head>
 
 <body>
-    <script src="./script.js"></script>
+    <h1>Récupération de valeur JSON par clé</h1>
+
+
+    <input type="text" id="keyInput" value="city">
+    <button onclick="getValue()">Récupérer</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+    <script>
+
+    </script>
 </body>
 
 </html>
