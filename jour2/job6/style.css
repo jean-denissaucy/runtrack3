@@ -1,1 +1,47 @@
+ 
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            transition: all 0.5s ease;
+        }
 
+        body.konami {
+            background: linear-gradient(135deg, #0065fc 0%, #0047AB 100%);
+        }
+
+        .container {
+            text-align: center;
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.5s ease;
+        }
+
+        body.konami .container {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        h1 {
+            color: rgb(190, 22, 22);
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            font-size: 72px;
+            font-weight: bold;
+            color: #0065fc;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            color: rgb(14, 128, 167);
+            font-size: 20px;
+            margin-top: 30px;
+        }
