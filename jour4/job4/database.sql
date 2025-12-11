@@ -15,5 +15,3 @@ INSERT INTO utilisateurs (nom, prenom, email) VALUES
 ('Bernard', 'Harnot', 'Bernard.Harnot@mail.com'),
 ('Françoise', 'Marie', 'marie.Françoise@mail.com'),
 ('Thomas', 'Ugue', 'Ugue.thomas@example.com');
-
-
