@@ -1,0 +1,2333 @@
+[{
+		"id": 1,
+		"nom": "Bulbizarre",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 45,
+			"Attaque": 49,
+			"Défense": 49,
+			"Attaque Spé": 65,
+			"Défense Spé": 65,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 2,
+		"nom": "Herbizarre",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 62,
+			"Défense": 63,
+			"Attaque Spé": 80,
+			"Défense Spé": 80,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 3,
+		"nom": "Florizarre",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 82,
+			"Défense": 83,
+			"Attaque Spé": 100,
+			"Défense Spé": 100,
+			"Vitesse": 80
+		}
+	},
+	{
+		"id": 4,
+		"nom": "Salamèche",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 39,
+			"Attaque": 52,
+			"Défense": 43,
+			"Attaque Spé": 60,
+			"Défense Spé": 50,
+			"Vitesse": 65
+		}
+	},
+	{
+		"id": 5,
+		"nom": "Reptincel",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 58,
+			"Attaque": 64,
+			"Défense": 58,
+			"Attaque Spé": 80,
+			"Défense Spé": 65,
+			"Vitesse": 80
+		}
+	},
+	{
+		"id": 6,
+		"nom": "Dracaufeu",
+		"type": [
+			"Feu",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 78,
+			"Attaque": 84,
+			"Défense": 78,
+			"Attaque Spé": 109,
+			"Défense Spé": 85,
+			"Vitesse": 100
+		}
+	},
+	{
+		"id": 7,
+		"nom": "Carapuce",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 44,
+			"Attaque": 48,
+			"Défense": 65,
+			"Attaque Spé": 50,
+			"Défense Spé": 64,
+			"Vitesse": 43
+		}
+	},
+	{
+		"id": 8,
+		"nom": "Carabaffe",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 59,
+			"Attaque": 63,
+			"Défense": 80,
+			"Attaque Spé": 65,
+			"Défense Spé": 80,
+			"Vitesse": 58
+		}
+	},
+	{
+		"id": 9,
+		"nom": "Tortank",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 79,
+			"Attaque": 83,
+			"Défense": 100,
+			"Attaque Spé": 85,
+			"Défense Spé": 105,
+			"Vitesse": 78
+		}
+	},
+	{
+		"id": 10,
+		"nom": "Chenipan",
+		"type": [
+			"Insecte"
+		],
+		"statistiques": {
+			"PV": 45,
+			"Attaque": 30,
+			"Défense": 35,
+			"Attaque Spé": 20,
+			"Défense Spé": 20,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 11,
+		"nom": "Chrysacier",
+		"type": [
+			"Insecte"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 20,
+			"Défense": 55,
+			"Attaque Spé": 25,
+			"Défense Spé": 25,
+			"Vitesse": 30
+		}
+	},
+	{
+		"id": 12,
+		"nom": "Papilusion",
+		"type": [
+			"Insecte",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 45,
+			"Défense": 50,
+			"Attaque Spé": 90,
+			"Défense Spé": 80,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 13,
+		"nom": "Aspicot",
+		"type": [
+			"Insecte",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 35,
+			"Défense": 30,
+			"Attaque Spé": 20,
+			"Défense Spé": 20,
+			"Vitesse": 50
+		}
+	},
+	{
+		"id": 14,
+		"nom": "Coconfort",
+		"type": [
+			"Insecte",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 45,
+			"Attaque": 25,
+			"Défense": 50,
+			"Attaque Spé": 25,
+			"Défense Spé": 25,
+			"Vitesse": 35
+		}
+	},
+	{
+		"id": 15,
+		"nom": "Dardargnan",
+		"type": [
+			"Insecte",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 90,
+			"Défense": 40,
+			"Attaque Spé": 45,
+			"Défense Spé": 80,
+			"Vitesse": 75
+		}
+	},
+	{
+		"id": 16,
+		"nom": "Roucool",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 45,
+			"Défense": 40,
+			"Attaque Spé": 35,
+			"Défense Spé": 35,
+			"Vitesse": 56
+		}
+	},
+	{
+		"id": 17,
+		"nom": "Roucoups",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 63,
+			"Attaque": 60,
+			"Défense": 55,
+			"Attaque Spé": 50,
+			"Défense Spé": 50,
+			"Vitesse": 71
+		}
+	},
+	{
+		"id": 18,
+		"nom": "Roucarnage",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 83,
+			"Attaque": 80,
+			"Défense": 75,
+			"Attaque Spé": 70,
+			"Défense Spé": 70,
+			"Vitesse": 101
+		}
+	},
+	{
+		"id": 19,
+		"nom": "Rattata",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 30,
+			"Attaque": 56,
+			"Défense": 35,
+			"Attaque Spé": 25,
+			"Défense Spé": 35,
+			"Vitesse": 72
+		}
+	},
+	{
+		"id": 20,
+		"nom": "Rattatac",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 81,
+			"Défense": 60,
+			"Attaque Spé": 50,
+			"Défense Spé": 70,
+			"Vitesse": 97
+		}
+	},
+	{
+		"id": 21,
+		"nom": "Piafabec",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 60,
+			"Défense": 30,
+			"Attaque Spé": 31,
+			"Défense Spé": 31,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 22,
+		"nom": "Rapasdepic",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 90,
+			"Défense": 65,
+			"Attaque Spé": 61,
+			"Défense Spé": 61,
+			"Vitesse": 100
+		}
+	},
+	{
+		"id": 23,
+		"nom": "Abo",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 35,
+			"Attaque": 60,
+			"Défense": 44,
+			"Attaque Spé": 40,
+			"Défense Spé": 54,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 24,
+		"nom": "Arbok",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 95,
+			"Défense": 69,
+			"Attaque Spé": 65,
+			"Défense Spé": 79,
+			"Vitesse": 80
+		}
+	},
+	{
+		"id": 25,
+		"nom": "Pikachu",
+		"type": [
+			"Electrik"
+		],
+		"statistiques": {
+			"PV": 35,
+			"Attaque": 55,
+			"Défense": 40,
+			"Attaque Spé": 50,
+			"Défense Spé": 50,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 26,
+		"nom": "Raichu",
+		"type": [
+			"Electrik"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 90,
+			"Défense": 55,
+			"Attaque Spé": 90,
+			"Défense Spé": 80,
+			"Vitesse": 110
+		}
+	},
+	{
+		"id": 27,
+		"nom": "Sabelette",
+		"type": [
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 75,
+			"Défense": 85,
+			"Attaque Spé": 20,
+			"Défense Spé": 30,
+			"Vitesse": 40
+		}
+	},
+	{
+		"id": 28,
+		"nom": "Sablaireau",
+		"type": [
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 75,
+			"Attaque": 100,
+			"Défense": 110,
+			"Attaque Spé": 45,
+			"Défense Spé": 55,
+			"Vitesse": 65
+		}
+	},
+	{
+		"id": 29,
+		"nom": "Nidoran♀",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 47,
+			"Défense": 52,
+			"Attaque Spé": 40,
+			"Défense Spé": 40,
+			"Vitesse": 41
+		}
+	},
+	{
+		"id": 30,
+		"nom": "Nidorina",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 70,
+			"Attaque": 62,
+			"Défense": 67,
+			"Attaque Spé": 55,
+			"Défense Spé": 55,
+			"Vitesse": 56
+		}
+	},
+	{
+		"id": 31,
+		"nom": "Nidoqueen",
+		"type": [
+			"Poison",
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 92,
+			"Défense": 87,
+			"Attaque Spé": 75,
+			"Défense Spé": 85,
+			"Vitesse": 76
+		}
+	},
+	{
+		"id": 32,
+		"nom": "Nidoran♂",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 46,
+			"Attaque": 57,
+			"Défense": 40,
+			"Attaque Spé": 40,
+			"Défense Spé": 40,
+			"Vitesse": 50
+		}
+	},
+	{
+		"id": 33,
+		"nom": "Nidorino",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 61,
+			"Attaque": 72,
+			"Défense": 57,
+			"Attaque Spé": 55,
+			"Défense Spé": 55,
+			"Vitesse": 65
+		}
+	},
+	{
+		"id": 34,
+		"nom": "Nidoking",
+		"type": [
+			"Poison",
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 81,
+			"Attaque": 102,
+			"Défense": 77,
+			"Attaque Spé": 85,
+			"Défense Spé": 75,
+			"Vitesse": 85
+		}
+	},
+	{
+		"id": 35,
+		"nom": "Mélofée",
+		"type": [
+			"Fée"
+		],
+		"statistiques": {
+			"PV": 70,
+			"Attaque": 45,
+			"Défense": 48,
+			"Attaque Spé": 60,
+			"Défense Spé": 65,
+			"Vitesse": 35
+		}
+	},
+	{
+		"id": 36,
+		"nom": "Mélodelfe",
+		"type": [
+			"Fée"
+		],
+		"statistiques": {
+			"PV": 95,
+			"Attaque": 70,
+			"Défense": 73,
+			"Attaque Spé": 95,
+			"Défense Spé": 90,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 37,
+		"nom": "Vulpix",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 38,
+			"Attaque": 41,
+			"Défense": 40,
+			"Attaque Spé": 50,
+			"Défense Spé": 65,
+			"Vitesse": 65
+		}
+	},
+	{
+		"id": 38,
+		"nom": "Ninetales",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 73,
+			"Attaque": 76,
+			"Défense": 75,
+			"Attaque Spé": 81,
+			"Défense Spé": 100,
+			"Vitesse": 100
+		}
+	},
+	{
+		"id": 39,
+		"nom": "Jigglypuff",
+		"type": [
+			"Normal",
+			"Fée"
+		],
+		"statistiques": {
+			"PV": 115,
+			"Attaque": 45,
+			"Défense": 20,
+			"Attaque Spé": 45,
+			"Défense Spé": 25,
+			"Vitesse": 20
+		}
+	},
+	{
+		"id": 40,
+		"nom": "Wigglytuff",
+		"type": [
+			"Normal",
+			"Fée"
+		],
+		"statistiques": {
+			"PV": 140,
+			"Attaque": 70,
+			"Défense": 45,
+			"Attaque Spé": 85,
+			"Défense Spé": 50,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 41,
+		"nom": "Nosferapti",
+		"type": [
+			"Poison",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 45,
+			"Défense": 35,
+			"Attaque Spé": 30,
+			"Défense Spé": 40,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 42,
+		"nom": "Nosferalto",
+		"type": [
+			"Poison",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 75,
+			"Attaque": 80,
+			"Défense": 70,
+			"Attaque Spé": 65,
+			"Défense Spé": 75,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 43,
+		"nom": "Mystherbe",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 45,
+			"Attaque": 50,
+			"Défense": 55,
+			"Attaque Spé": 75,
+			"Défense Spé": 65,
+			"Vitesse": 30
+		}
+	},
+	{
+		"id": 44,
+		"nom": "Ortide",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 65,
+			"Défense": 70,
+			"Attaque Spé": 85,
+			"Défense Spé": 75,
+			"Vitesse": 40
+		}
+	},
+	{
+		"id": 45,
+		"nom": "Rafflesia",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 75,
+			"Attaque": 80,
+			"Défense": 85,
+			"Attaque Spé": 110,
+			"Défense Spé": 90,
+			"Vitesse": 50
+		}
+	},
+	{
+		"id": 46,
+		"nom": "Paras",
+		"type": [
+			"Insecte",
+			"Plante"
+		],
+		"statistiques": {
+			"PV": 35,
+			"Attaque": 70,
+			"Défense": 55,
+			"Attaque Spé": 45,
+			"Défense Spé": 55,
+			"Vitesse": 25
+		}
+	},
+	{
+		"id": 47,
+		"nom": "Parasect",
+		"type": [
+			"Insecte",
+			"Plante"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 95,
+			"Défense": 80,
+			"Attaque Spé": 60,
+			"Défense Spé": 80,
+			"Vitesse": 30
+		}
+	},
+	{
+		"id": 48,
+		"nom": "Venonat",
+		"type": [
+			"Insecte",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 55,
+			"Défense": 50,
+			"Attaque Spé": 40,
+			"Défense Spé": 55,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 49,
+		"nom": "Venomoth",
+		"type": [
+			"Insecte",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 70,
+			"Attaque": 65,
+			"Défense": 60,
+			"Attaque Spé": 90,
+			"Défense Spé": 75,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 50,
+		"nom": "Diglett",
+		"type": [
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 10,
+			"Attaque": 55,
+			"Défense": 25,
+			"Attaque Spé": 35,
+			"Défense Spé": 45,
+			"Vitesse": 95
+		}
+	},
+	{
+		"id": 51,
+		"nom": "Dugtrio",
+		"type": [
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 35,
+			"Attaque": 100,
+			"Défense": 50,
+			"Attaque Spé": 50,
+			"Défense Spé": 70,
+			"Vitesse": 120
+		}
+	},
+	{
+		"id": 52,
+		"nom": "Meowth",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 45,
+			"Défense": 35,
+			"Attaque Spé": 40,
+			"Défense Spé": 40,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 53,
+		"nom": "Persian",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 70,
+			"Défense": 60,
+			"Attaque Spé": 65,
+			"Défense Spé": 65,
+			"Vitesse": 115
+		}
+	},
+	{
+		"id": 54,
+		"nom": "Psykokwak",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 52,
+			"Défense": 48,
+			"Attaque Spé": 65,
+			"Défense Spé": 50,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 55,
+		"nom": "Golduck",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 82,
+			"Défense": 78,
+			"Attaque Spé": 95,
+			"Défense Spé": 80,
+			"Vitesse": 85
+		}
+	},
+	{
+		"id": 56,
+		"nom": "Mankey",
+		"type": [
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 80,
+			"Défense": 35,
+			"Attaque Spé": 35,
+			"Défense Spé": 45,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 57,
+		"nom": "Primeape",
+		"type": [
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 105,
+			"Défense": 60,
+			"Attaque Spé": 60,
+			"Défense Spé": 70,
+			"Vitesse": 95
+		}
+	},
+	{
+		"id": 58,
+		"nom": "Growlithe",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 70,
+			"Défense": 45,
+			"Attaque Spé": 70,
+			"Défense Spé": 50,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 59,
+		"nom": "Arcanine",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 110,
+			"Défense": 80,
+			"Attaque Spé": 100,
+			"Défense Spé": 80,
+			"Vitesse": 95
+		}
+	},
+	{
+		"id": 60,
+		"nom": "Poliwag",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 50,
+			"Défense": 40,
+			"Attaque Spé": 40,
+			"Défense Spé": 40,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 61,
+		"nom": "Poliwhirl",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 65,
+			"Défense": 65,
+			"Attaque Spé": 50,
+			"Défense Spé": 50,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 62,
+		"nom": "Poliwrath",
+		"type": [
+			"Eau",
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 95,
+			"Défense": 95,
+			"Attaque Spé": 70,
+			"Défense Spé": 90,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 63,
+		"nom": "Abra",
+		"type": [
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 25,
+			"Attaque": 20,
+			"Défense": 15,
+			"Attaque Spé": 105,
+			"Défense Spé": 55,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 64,
+		"nom": "Kadabra",
+		"type": [
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 35,
+			"Défense": 30,
+			"Attaque Spé": 120,
+			"Défense Spé": 70,
+			"Vitesse": 105
+		}
+	},
+	{
+		"id": 65,
+		"nom": "Alakazam",
+		"type": [
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 50,
+			"Défense": 45,
+			"Attaque Spé": 135,
+			"Défense Spé": 95,
+			"Vitesse": 120
+		}
+	},
+	{
+		"id": 66,
+		"nom": "Machop",
+		"type": [
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 70,
+			"Attaque": 80,
+			"Défense": 50,
+			"Attaque Spé": 35,
+			"Défense Spé": 35,
+			"Vitesse": 35
+		}
+	},
+	{
+		"id": 67,
+		"nom": "Machoke",
+		"type": [
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 100,
+			"Défense": 70,
+			"Attaque Spé": 50,
+			"Défense Spé": 60,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 68,
+		"nom": "Machamp",
+		"type": [
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 130,
+			"Défense": 80,
+			"Attaque Spé": 65,
+			"Défense Spé": 85,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 69,
+		"nom": "Bellsprout",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 75,
+			"Défense": 35,
+			"Attaque Spé": 70,
+			"Défense Spé": 30,
+			"Vitesse": 40
+		}
+	},
+	{
+		"id": 70,
+		"nom": "Weepinbell",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 90,
+			"Défense": 50,
+			"Attaque Spé": 85,
+			"Défense Spé": 45,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 71,
+		"nom": "Victreebel",
+		"type": [
+			"Plante",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 105,
+			"Défense": 65,
+			"Attaque Spé": 100,
+			"Défense Spé": 70,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 72,
+		"nom": "Tentacool",
+		"type": [
+			"Eau",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 40,
+			"Défense": 35,
+			"Attaque Spé": 50,
+			"Défense Spé": 100,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 73,
+		"nom": "Tentacruel",
+		"type": [
+			"Eau",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 70,
+			"Défense": 65,
+			"Attaque Spé": 80,
+			"Défense Spé": 120,
+			"Vitesse": 100
+		}
+	},
+	{
+		"id": 74,
+		"nom": "Geodude",
+		"type": [
+			"Roche",
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 80,
+			"Défense": 100,
+			"Attaque Spé": 30,
+			"Défense Spé": 30,
+			"Vitesse": 20
+		}
+	},
+	{
+		"id": 75,
+		"nom": "Gravalanch",
+		"type": [
+			"Roche",
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 95,
+			"Défense": 115,
+			"Attaque Spé": 45,
+			"Défense Spé": 45,
+			"Vitesse": 35
+		}
+	},
+	{
+		"id": 76,
+		"nom": "Grolem",
+		"type": [
+			"Roche",
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 120,
+			"Défense": 130,
+			"Attaque Spé": 55,
+			"Défense Spé": 65,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 77,
+		"nom": "Ponyta",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 85,
+			"Défense": 55,
+			"Attaque Spé": 65,
+			"Défense Spé": 65,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 78,
+		"nom": "Galopa",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 100,
+			"Défense": 70,
+			"Attaque Spé": 80,
+			"Défense Spé": 80,
+			"Vitesse": 105
+		}
+	},
+	{
+		"id": 79,
+		"nom": "Yadon",
+		"type": [
+			"Eau",
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 65,
+			"Défense": 65,
+			"Attaque Spé": 40,
+			"Défense Spé": 40,
+			"Vitesse": 15
+		}
+	},
+	{
+		"id": 80,
+		"nom": "Yadoran",
+		"type": [
+			"Eau",
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 95,
+			"Attaque": 75,
+			"Défense": 110,
+			"Attaque Spé": 100,
+			"Défense Spé": 80,
+			"Vitesse": 30
+		}
+	},
+	{
+		"id": 81,
+		"nom": "Coil",
+		"type": [
+			"Electrik",
+			"Acier"
+		],
+		"statistiques": {
+			"PV": 25,
+			"Attaque": 35,
+			"Défense": 70,
+			"Attaque Spé": 95,
+			"Défense Spé": 55,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 82,
+		"nom": "Magnéton",
+		"type": [
+			"Electrik",
+			"Acier"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 60,
+			"Défense": 95,
+			"Attaque Spé": 120,
+			"Défense Spé": 70,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 83,
+		"nom": "Canarticho",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 52,
+			"Attaque": 90,
+			"Défense": 55,
+			"Attaque Spé": 58,
+			"Défense Spé": 62,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 84,
+		"nom": "Doduo",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 35,
+			"Attaque": 85,
+			"Défense": 45,
+			"Attaque Spé": 35,
+			"Défense Spé": 35,
+			"Vitesse": 75
+		}
+	},
+	{
+		"id": 85,
+		"nom": "Dodrio",
+		"type": [
+			"Normal",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 110,
+			"Défense": 70,
+			"Attaque Spé": 60,
+			"Défense Spé": 60,
+			"Vitesse": 110
+		}
+	},
+	{
+		"id": 86,
+		"nom": "Seel",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 45,
+			"Défense": 55,
+			"Attaque Spé": 45,
+			"Défense Spé": 70,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 87,
+		"nom": "Dewgong",
+		"type": [
+			"Eau",
+			"Glace"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 70,
+			"Défense": 80,
+			"Attaque Spé": 70,
+			"Défense Spé": 95,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 88,
+		"nom": "Beurk",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 80,
+			"Défense": 50,
+			"Attaque Spé": 40,
+			"Défense Spé": 50,
+			"Vitesse": 25
+		}
+	},
+	{
+		"id": 89,
+		"nom": "Grotadmorv",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 105,
+			"Attaque": 105,
+			"Défense": 75,
+			"Attaque Spé": 65,
+			"Défense Spé": 100,
+			"Vitesse": 50
+		}
+	},
+	{
+		"id": 90,
+		"nom": "Kokiyas",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 30,
+			"Attaque": 65,
+			"Défense": 100,
+			"Attaque Spé": 45,
+			"Défense Spé": 25,
+			"Vitesse": 40
+		}
+	},
+	{
+		"id": 91,
+		"nom": "Crustabri",
+		"type": [
+			"Eau",
+			"Glace"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 95,
+			"Défense": 180,
+			"Attaque Spé": 85,
+			"Défense Spé": 45,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 92,
+		"nom": "Fantominus",
+		"type": [
+			"Spectre",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 30,
+			"Attaque": 35,
+			"Défense": 30,
+			"Attaque Spé": 100,
+			"Défense Spé": 35,
+			"Vitesse": 80
+		}
+	},
+	{
+		"id": 93,
+		"nom": "Spectrum",
+		"type": [
+			"Spectre",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 45,
+			"Attaque": 50,
+			"Défense": 45,
+			"Attaque Spé": 115,
+			"Défense Spé": 55,
+			"Vitesse": 95
+		}
+	},
+	{
+		"id": 94,
+		"nom": "Ectoplasma",
+		"type": [
+			"Spectre",
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 65,
+			"Défense": 60,
+			"Attaque Spé": 130,
+			"Défense Spé": 75,
+			"Vitesse": 110
+		}
+	},
+	{
+		"id": 95,
+		"nom": "Onix",
+		"type": [
+			"Roche",
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 35,
+			"Attaque": 45,
+			"Défense": 160,
+			"Attaque Spé": 30,
+			"Défense Spé": 45,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 96,
+		"nom": "Soporifik",
+		"type": [
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 48,
+			"Défense": 45,
+			"Attaque Spé": 43,
+			"Défense Spé": 90,
+			"Vitesse": 42
+		}
+	},
+	{
+		"id": 97,
+		"nom": "Hypnomade",
+		"type": [
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 85,
+			"Attaque": 73,
+			"Défense": 70,
+			"Attaque Spé": 73,
+			"Défense Spé": 115,
+			"Vitesse": 67
+		}
+	},
+	{
+		"id": 98,
+		"nom": "Krabby",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 30,
+			"Attaque": 105,
+			"Défense": 90,
+			"Attaque Spé": 25,
+			"Défense Spé": 25,
+			"Vitesse": 50
+		}
+	},
+	{
+		"id": 99,
+		"nom": "Kingler",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 130,
+			"Défense": 115,
+			"Attaque Spé": 50,
+			"Défense Spé": 50,
+			"Vitesse": 75
+		}
+	},
+	{
+		"id": 100,
+		"nom": "Voltorbe",
+		"type": [
+			"Electrik"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 30,
+			"Défense": 50,
+			"Attaque Spé": 55,
+			"Défense Spé": 55,
+			"Vitesse": 100
+		}
+	},
+	{
+		"id": 101,
+		"nom": "Électrode",
+		"type": [
+			"Electrik"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 50,
+			"Défense": 70,
+			"Attaque Spé": 80,
+			"Défense Spé": 80,
+			"Vitesse": 150
+		}
+	},
+	{
+		"id": 102,
+		"nom": "Tama",
+		"type": [
+			"Plante",
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 40,
+			"Défense": 80,
+			"Attaque Spé": 60,
+			"Défense Spé": 45,
+			"Vitesse": 40
+		}
+	},
+	{
+		"id": 103,
+		"nom": "Noadkoko",
+		"type": [
+			"Plante",
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 95,
+			"Attaque": 95,
+			"Défense": 85,
+			"Attaque Spé": 125,
+			"Défense Spé": 75,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 104,
+		"nom": "Osselait",
+		"type": [
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 50,
+			"Défense": 95,
+			"Attaque Spé": 40,
+			"Défense Spé": 50,
+			"Vitesse": 35
+		}
+	},
+	{
+		"id": 105,
+		"nom": "Ossatueur",
+		"type": [
+			"Sol"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 80,
+			"Défense": 110,
+			"Attaque Spé": 50,
+			"Défense Spé": 80,
+			"Vitesse": 45
+		}
+	},
+	{
+		"id": 106,
+		"nom": "Kicklee",
+		"type": [
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 120,
+			"Défense": 53,
+			"Attaque Spé": 35,
+			"Défense Spé": 110,
+			"Vitesse": 87
+		}
+	},
+	{
+		"id": 107,
+		"nom": "Tygnon",
+		"type": [
+			"Combat"
+		],
+		"statistiques": {
+			"PV": 50,
+			"Attaque": 105,
+			"Défense": 79,
+			"Attaque Spé": 35,
+			"Défense Spé": 110,
+			"Vitesse": 76
+		}
+	},
+	{
+		"id": 108,
+		"nom": "Excelangue",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 55,
+			"Défense": 75,
+			"Attaque Spé": 60,
+			"Défense Spé": 75,
+			"Vitesse": 30
+		}
+	},
+	{
+		"id": 109,
+		"nom": "Smogo",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 65,
+			"Défense": 95,
+			"Attaque Spé": 60,
+			"Défense Spé": 45,
+			"Vitesse": 35
+		}
+	},
+	{
+		"id": 110,
+		"nom": "Smogogo",
+		"type": [
+			"Poison"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 90,
+			"Défense": 120,
+			"Attaque Spé": 85,
+			"Défense Spé": 70,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 111,
+		"nom": "Rhinocorne",
+		"type": [
+			"Sol",
+			"Roche"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 85,
+			"Défense": 95,
+			"Attaque Spé": 30,
+			"Défense Spé": 30,
+			"Vitesse": 25
+		}
+	},
+	{
+		"id": 112,
+		"nom": "Rhinoféros",
+		"type": [
+			"Sol",
+			"Roche"
+		],
+		"statistiques": {
+			"PV": 105,
+			"Attaque": 130,
+			"Défense": 120,
+			"Attaque Spé": 45,
+			"Défense Spé": 45,
+			"Vitesse": 40
+		}
+	},
+	{
+		"id": 113,
+		"nom": "Leveinard",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 250,
+			"Attaque": 5,
+			"Défense": 5,
+			"Attaque Spé": 35,
+			"Défense Spé": 105,
+			"Vitesse": 50
+		}
+	},
+	{
+		"id": 114,
+		"nom": "Saquedeneu",
+		"type": [
+			"Plante"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 55,
+			"Défense": 115,
+			"Attaque Spé": 100,
+			"Défense Spé": 40,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 115,
+		"nom": "Kangourex",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 105,
+			"Attaque": 95,
+			"Défense": 80,
+			"Attaque Spé": 40,
+			"Défense Spé": 80,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 116,
+		"nom": "Hypotrempe",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 30,
+			"Attaque": 40,
+			"Défense": 70,
+			"Attaque Spé": 70,
+			"Défense Spé": 25,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 117,
+		"nom": "Seadra",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 65,
+			"Défense": 95,
+			"Attaque Spé": 95,
+			"Défense Spé": 45,
+			"Vitesse": 85
+		}
+	},
+	{
+		"id": 118,
+		"nom": "Goldeen",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 45,
+			"Attaque": 67,
+			"Défense": 60,
+			"Attaque Spé": 35,
+			"Défense Spé": 50,
+			"Vitesse": 63
+		}
+	},
+	{
+		"id": 119,
+		"nom": "Seaking",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 92,
+			"Défense": 65,
+			"Attaque Spé": 65,
+			"Défense Spé": 80,
+			"Vitesse": 68
+		}
+	},
+	{
+		"id": 120,
+		"nom": "Hito",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 30,
+			"Attaque": 45,
+			"Défense": 55,
+			"Attaque Spé": 70,
+			"Défense Spé": 55,
+			"Vitesse": 85
+		}
+	},
+	{
+		"id": 121,
+		"nom": "Starmie",
+		"type": [
+			"Eau",
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 75,
+			"Défense": 85,
+			"Attaque Spé": 100,
+			"Défense Spé": 85,
+			"Vitesse": 115
+		}
+	},
+	{
+		"id": 122,
+		"nom": "M. Mime",
+		"type": [
+			"Psychic",
+			"Fée"
+		],
+		"statistiques": {
+			"PV": 40,
+			"Attaque": 45,
+			"Défense": 65,
+			"Attaque Spé": 100,
+			"Défense Spé": 120,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 123,
+		"nom": "Insécateur",
+		"type": [
+			"Insecte",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 70,
+			"Attaque": 110,
+			"Défense": 80,
+			"Attaque Spé": 55,
+			"Défense Spé": 80,
+			"Vitesse": 105
+		}
+	},
+	{
+		"id": 124,
+		"nom": "Lippoutou",
+		"type": [
+			"Glace",
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 50,
+			"Défense": 35,
+			"Attaque Spé": 115,
+			"Défense Spé": 95,
+			"Vitesse": 95
+		}
+	},
+	{
+		"id": 125,
+		"nom": "Élektek",
+		"type": [
+			"Electrik"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 83,
+			"Défense": 57,
+			"Attaque Spé": 95,
+			"Défense Spé": 85,
+			"Vitesse": 105
+		}
+	},
+	{
+		"id": 126,
+		"nom": "Magmar",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 95,
+			"Défense": 57,
+			"Attaque Spé": 100,
+			"Défense Spé": 85,
+			"Vitesse": 93
+		}
+	},
+	{
+		"id": 127,
+		"nom": "Pinsir",
+		"type": [
+			"Insecte"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 125,
+			"Défense": 100,
+			"Attaque Spé": 55,
+			"Défense Spé": 70,
+			"Vitesse": 85
+		}
+	},
+	{
+		"id": 128,
+		"nom": "Tauros",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 75,
+			"Attaque": 100,
+			"Défense": 95,
+			"Attaque Spé": 40,
+			"Défense Spé": 70,
+			"Vitesse": 110
+		}
+	},
+	{
+		"id": 129,
+		"nom": "Magicarpe",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 20,
+			"Attaque": 10,
+			"Défense": 55,
+			"Attaque Spé": 15,
+			"Défense Spé": 20,
+			"Vitesse": 80
+		}
+	},
+	{
+		"id": 130,
+		"nom": "Léviator",
+		"type": [
+			"Eau",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 95,
+			"Attaque": 125,
+			"Défense": 79,
+			"Attaque Spé": 60,
+			"Défense Spé": 100,
+			"Vitesse": 81
+		}
+	},
+	{
+		"id": 131,
+		"nom": "Lokhlass",
+		"type": [
+			"Eau",
+			"Glace"
+		],
+		"statistiques": {
+			"PV": 130,
+			"Attaque": 85,
+			"Défense": 80,
+			"Attaque Spé": 85,
+			"Défense Spé": 95,
+			"Vitesse": 60
+		}
+	},
+	{
+		"id": 132,
+		"nom": "Métamorph",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 48,
+			"Attaque": 48,
+			"Défense": 48,
+			"Attaque Spé": 48,
+			"Défense Spé": 48,
+			"Vitesse": 48
+		}
+	},
+	{
+		"id": 133,
+		"nom": "Evoli",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 55,
+			"Attaque": 55,
+			"Défense": 50,
+			"Attaque Spé": 45,
+			"Défense Spé": 65,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 134,
+		"nom": "Aquali",
+		"type": [
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 130,
+			"Attaque": 65,
+			"Défense": 60,
+			"Attaque Spé": 110,
+			"Défense Spé": 95,
+			"Vitesse": 65
+		}
+	},
+	{
+		"id": 135,
+		"nom": "Voltali",
+		"type": [
+			"Electrik"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 65,
+			"Défense": 60,
+			"Attaque Spé": 110,
+			"Défense Spé": 95,
+			"Vitesse": 130
+		}
+	},
+	{
+		"id": 136,
+		"nom": "Pyroli",
+		"type": [
+			"Feu"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 130,
+			"Défense": 60,
+			"Attaque Spé": 95,
+			"Défense Spé": 110,
+			"Vitesse": 65
+		}
+	},
+	{
+		"id": 137,
+		"nom": "Porygon",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 65,
+			"Attaque": 60,
+			"Défense": 70,
+			"Attaque Spé": 85,
+			"Défense Spé": 75,
+			"Vitesse": 40
+		}
+	},
+	{
+		"id": 138,
+		"nom": "Omanyte",
+		"type": [
+			"Roche",
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 35,
+			"Attaque": 40,
+			"Défense": 100,
+			"Attaque Spé": 90,
+			"Défense Spé": 55,
+			"Vitesse": 35
+		}
+	},
+	{
+		"id": 139,
+		"nom": "Omastar",
+		"type": [
+			"Roche",
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 70,
+			"Attaque": 60,
+			"Défense": 125,
+			"Attaque Spé": 115,
+			"Défense Spé": 70,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 140,
+		"nom": "Kabuto",
+		"type": [
+			"Roche",
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 30,
+			"Attaque": 80,
+			"Défense": 90,
+			"Attaque Spé": 55,
+			"Défense Spé": 45,
+			"Vitesse": 55
+		}
+	},
+	{
+		"id": 141,
+		"nom": "Kabutops",
+		"type": [
+			"Roche",
+			"Eau"
+		],
+		"statistiques": {
+			"PV": 60,
+			"Attaque": 115,
+			"Défense": 105,
+			"Attaque Spé": 65,
+			"Défense Spé": 70,
+			"Vitesse": 80
+		}
+	},
+	{
+		"id": 142,
+		"nom": "Ptéra",
+		"type": [
+			"Roche",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 80,
+			"Attaque": 105,
+			"Défense": 65,
+			"Attaque Spé": 60,
+			"Défense Spé": 75,
+			"Vitesse": 130
+		}
+	},
+	{
+		"id": 143,
+		"nom": "Ronflex",
+		"type": [
+			"Normal"
+		],
+		"statistiques": {
+			"PV": 160,
+			"Attaque": 110,
+			"Défense": 65,
+			"Attaque Spé": 65,
+			"Défense Spé": 110,
+			"Vitesse": 30
+		}
+	},
+	{
+		"id": 144,
+		"nom": "Artikodin",
+		"type": [
+			"Glace",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 85,
+			"Défense": 100,
+			"Attaque Spé": 95,
+			"Défense Spé": 125,
+			"Vitesse": 85
+		}
+	},
+	{
+		"id": 145,
+		"nom": "Électhor",
+		"type": [
+			"Electrik",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 90,
+			"Défense": 85,
+			"Attaque Spé": 125,
+			"Défense Spé": 90,
+			"Vitesse": 100
+		}
+	},
+	{
+		"id": 146,
+		"nom": "Sulfura",
+		"type": [
+			"Feu",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 90,
+			"Attaque": 100,
+			"Défense": 90,
+			"Attaque Spé": 125,
+			"Défense Spé": 85,
+			"Vitesse": 90
+		}
+	},
+	{
+		"id": 147,
+		"nom": "Dratini",
+		"type": [
+			"Dragon"
+		],
+		"statistiques": {
+			"PV": 41,
+			"Attaque": 64,
+			"Défense": 45,
+			"Attaque Spé": 50,
+			"Défense Spé": 50,
+			"Vitesse": 50
+		}
+	},
+	{
+		"id": 148,
+		"nom": "Dragonair",
+		"type": [
+			"Dragon"
+		],
+		"statistiques": {
+			"PV": 61,
+			"Attaque": 84,
+			"Défense": 65,
+			"Attaque Spé": 70,
+			"Défense Spé": 70,
+			"Vitesse": 70
+		}
+	},
+	{
+		"id": 149,
+		"nom": "Dracolosse",
+		"type": [
+			"Dragon",
+			"Vol"
+		],
+		"statistiques": {
+			"PV": 91,
+			"Attaque": 134,
+			"Défense": 95,
+			"Attaque Spé": 100,
+			"Défense Spé": 100,
+			"Vitesse": 80
+		}
+	},
+	{
+		"id": 150,
+		"nom": "Mewtwo",
+		"type": [
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 106,
+			"Attaque": 110,
+			"Défense": 90,
+			"Attaque Spé": 154,
+			"Défense Spé": 90,
+			"Vitesse": 130
+		}
+	},
+	{
+		"id": 151,
+		"nom": "Mew",
+		"type": [
+			"Psychic"
+		],
+		"statistiques": {
+			"PV": 100,
+			"Attaque": 100,
+			"Défense": 100,
+			"Attaque Spé": 100,
+			"Défense Spé": 100,
+			"Vitesse": 100
+		}
+	}
+]
