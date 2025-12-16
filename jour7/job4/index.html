@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de compte</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <nav class="blue accent-2">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Formulaire de création de compte</h1>
+        
+            <fieldset>
+                <legend class="blue accent-2" >Civilité</legend>
+                <label>
+                    <input type="radio" name="civilite" value="Mr"> Monsieur
+                </label>
+                <label>
+                    <input type="radio" name="civilite" value="Mme"> Madame
+                </label>
+                <label>
+                    <input type="radio" name="civilite" value="Autre"> Autre
+                </label>
+            </fieldset>
+
+            <div class="input-field">
+                <i class="material-icons prefix">person</i>
+                <input class="blue accent-2" type="text" id="prenom" name="prenom">
+                <label for="prenom">Prénom</label>
+            </div>
+
+            <div class="input-field">
+                <i class="material-icons prefix">badge</i>
+                <input class="blue accent-2" type="text" id="nom" name="nom">
+                <label for="nom">Nom</label>
+            </div>
+
+            <div class="input-field">
+                <i class="material-icons prefix">home</i>
+                <input class="blue accent-2" type="text" id="adresse" name="adresse">
+                <label for="adresse">Adresse</label>
+            </div>
+
+            <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input class="blue accent-2" type="email" id="email" name="email">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input class="blue accent-2" type="password" id="password" name="password">
+                <label for="password">Mot de passe</label>
+            </div>
+
+            <div class="input-field">
+                <i class="material-icons prefix">lock_outline</i>
+                <input class="blue accent-2" type="password" id="password-confirm" name="password-confirm">
+                <label for="password-confirm">Confirmer le mot de passe</label>
+            </div>
+
+            <fieldset>
+                <legend class="blue accent-2">Passions</legend>
+                <label>
+                    <input type="checkbox" name="passions" value="informatique"> Informatique
+                </label>
+                <label>
+                    <input type="checkbox" name="passions" value="voyages"> Voyages
+                </label>
+                <label>
+                    <input type="checkbox" name="passions" value="sport"> Sport
+                </label>
+                <label>
+                    <input type="checkbox" name="passions" value="lecture"> Lecture
+                </label>
+            </fieldset>
+
+            <button class="btn blue lighten-4 blue-text text-darken-4" type="submit">Valider</button>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li"><a href="index.html">Accueil</a></li>
+            <li><a href="index.html">Inscription</a></li>
+            <li><a href="index.html">Connexion</a></li>
+            <li><a href="index.html">Rechercher</a></li>
+        </ul>
+    </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
