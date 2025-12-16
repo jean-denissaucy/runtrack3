@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR">
 
 <head>
     <meta charset="UTF-8">
@@ -66,6 +66,11 @@
             <div class="col-lg-6 col-md-6 mb-6">
                 <div class="col-12">
                     <div class="px-4 py-4 my-4 text-center" id="jumbotron">
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="earth-spinner" id="mainSpinner">
+                                <div class="earth">🌍</div>
+                            </div>
+                        </div>
                         <h1 class="display-3 fw-bold">Bonjour, monde!</h1>
                         <p class="lead mb-3">Il existe plusieurs visions du monde. Le monde est la, l'espace et les phénomènes qui nous sont accessibles par les sens, l'expérience ou la raison. Le sens le plus courant désigne notre planéte, la Terre, avec ses habitants, et son environnement plus ou moins naturel.</p>
                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -78,7 +83,7 @@
 
             <div class="col-lg-3 col-md-3 mb-3">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Limbes</li>
+                    <li class="list-group-item active">Limbes</li>
                     <li class="list-group-item">Luxure</li>
                     <li class="list-group-item">Gourmandise</li>
                     <li class="list-group-item">Avarice</li>
@@ -105,6 +110,23 @@
     </ul>
 </nav>
 
+<!-- Progress Bar avec boutons -->
+<div class="container my-4">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-auto">
+            <button class="btn btn-primary" id="decreaseProgress">◀</button>
+        </div>
+        <div class="col-md-8">
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar" role="progressbar" id="mainProgressBar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+            </div>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-primary" id="increaseProgress">▶</button>
+        </div>
+    </div>
+</div>
+
 <div class="container text-center">
     <div class="row">
         <div class="col align-self-start">
@@ -125,9 +147,48 @@
                     Must be 8-20 characters long.
                 </span>
             </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-success" id="submitForm">Valider</button>
+            </div>
         </div>
     </div>
 </div>
+
+
+<div class="modal fade" id="butterflyModal" tabindex="-1" aria-labelledby="butterflyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="butterflyModalLabel">Confirmation d'achat</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Félicitations! Vous avez acheté un magnifique papillon! 🦋
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale pour afficher les informations du formulaire (D-G-C) -->
+<div class="modal fade" id="formInfoModal" tabindex="-1" aria-labelledby="formInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formInfoModalLabel">Informations du formulaire</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="formInfoContent">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <body>

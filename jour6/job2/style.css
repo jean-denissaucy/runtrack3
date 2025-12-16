@@ -53,6 +53,25 @@ body::before {
     50% { opacity: 0.7; }
 }
 
+/* Animation de la terre qui tourne */
+.earth-spinner {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+}
+
+.earth {
+    font-size: 80px;
+    animation: rotateEarth 3s linear infinite;
+    display: block;
+}
+
+@keyframes rotateEarth {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 /* ===================================
    NAVBAR NATURE
    ================================== */

@@ -1,18 +1,18 @@
 // Citations de Blade Runner (1982)
 const bladeRunnerQuotes = [
-    "I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain. Time to die.",
-    "It's too bad she won't live! But then again, who does?",
-    "I want more life, fucker!",
-    "Wake up! Time to die.",
-    "All he'd wanted were the same answers the rest of us want. Where did I come from? Where am I going? How long have I got?",
-    "Quite an experience to live in fear, isn't it? That's what it is to be a slave.",
-    "You've done a man's job, sir!",
-    "More human than human is our motto.",
-    "I think, Sebastian, therefore I am.",
-    "Fiery the angels fell; deep thunder rolled around their shores; burning with the fires of Orc."
+    "J'ai vu des choses que vous, humains, ne pourriez pas croire. Des vaisseaux d'attaque en feu au large de l'épaule d'Orion. J'ai vu des rayons C briller dans l'obscurité près de la Porte de Tannhäuser. Tous ces moments se perdront dans le temps, comme les larmes dans la pluie. Il est temps de mourir.",
+    "C'est dommage qu'elle ne vivra pas ! Mais après tout, qui vit ?",
+    "Je veux plus de vie, enfoiré !",
+    "Réveille-toi ! Il est temps de mourir.",
+    "Tout ce qu'il voulait, c'était les mêmes réponses que nous voulons tous. D'où viens-je ? Où vais-je ? Combien de temps me reste-t-il ?",
+    "Quelle expérience de vivre dans la peur, n'est-ce pas ? C'est ça, être un esclave.",
+    "Vous avez fait le travail d'un homme, monsieur !",
+    "Plus humain que l'humain, c'est notre devise.",
+    "Je pense, Sebastian, donc je suis.",
+    "De feu tombèrent les anges ; un profond tonnerre roula autour de leurs rivages ; brûlant des feux d'Orc."
 ];
 
-// Contenu pour la pagination
+//pagination
 const paginationContent = {
     1: {
         title: "L'univers du développement web",
@@ -28,7 +28,7 @@ const paginationContent = {
     }
 };
 
-// Gestion du bouton papillon - Afficher la modale
+// Gestion papillon
 document.addEventListener('DOMContentLoaded', function () {
     const buyButterflyBtn = document.getElementById('buyButterfly');
     const butterflyModal = new bootstrap.Modal(document.getElementById('butterflyModal'));
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Gestion du bouton "Rebooter le Monde"
+    // Gestion du bouton
     const rebootWorldBtn = document.getElementById('rebootWorld');
     if (rebootWorldBtn) {
         rebootWorldBtn.addEventListener('click', function () {
@@ -48,6 +48,11 @@ document.addEventListener('DOMContentLoaded', function () {
             const randomQuote = bladeRunnerQuotes[Math.floor(Math.random() * bladeRunnerQuotes.length)];
 
             jumbotron.innerHTML = `
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="earth-spinner" id="mainSpinner">
+                        <div class="earth">🌍</div>
+                    </div>
+                </div>
                 <h1 class="display-3 fw-bold">Blade Runner</h1>
                 <p class="lead mb-3">${randomQuote}</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -55,12 +60,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
             `;
 
-            // Re-attacher l'événement au nouveau bouton
+            // Re-attacher
             document.getElementById('rebootWorld').addEventListener('click', arguments.callee);
         });
     }
 
-    // Gestion de la pagination
+    //pagination
     const pageLinks = document.querySelectorAll('.page-link');
     pageLinks.forEach(link => {
         link.addEventListener('click', function (e) {
@@ -71,6 +76,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (content) {
                 const jumbotron = document.getElementById('jumbotron');
                 jumbotron.innerHTML = `
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="earth-spinner" id="mainSpinner">
+                            <div class="earth">🌍</div>
+                        </div>
+                    </div>
                     <h1 class="display-3 fw-bold">${content.title}</h1>
                     <p class="lead mb-3">${content.text}</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -86,6 +96,11 @@ document.addEventListener('DOMContentLoaded', function () {
                         const randomQuote = bladeRunnerQuotes[Math.floor(Math.random() * bladeRunnerQuotes.length)];
 
                         jumbotron.innerHTML = `
+                            <div class="d-flex justify-content-center mb-3">
+                                <div class="earth-spinner" id="mainSpinner">
+                                    <div class="earth">🌍</div>
+                                </div>
+                            </div>
                             <h1 class="display-3 fw-bold">Blade Runner</h1>
                             <p class="lead mb-3">${randomQuote}</p>
                             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -103,4 +118,110 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    // Gestion du clic sur les éléments de la liste groupée
+    const listItems = document.querySelectorAll('.list-group-item');
+    listItems.forEach(item => {
+        item.addEventListener('click', function () {
+            // Retirer la classe active de tous les éléments
+            listItems.forEach(i => i.classList.remove('active'));
+            // Ajouter la classe active à l'élément cliqué
+            this.classList.add('active');
+        });
+    });
+
+    // Gestion de la progress bar
+    let progressValue = 0;
+    const progressBar = document.getElementById('mainProgressBar');
+    const increaseBtn = document.getElementById('increaseProgress');
+    const decreaseBtn = document.getElementById('decreaseProgress');
+
+    if (increaseBtn) {
+        increaseBtn.addEventListener('click', function () {
+            if (progressValue < 100) {
+                progressValue += 10;
+                updateProgressBar();
+            }
+        });
+    }
+
+    if (decreaseBtn) {
+        decreaseBtn.addEventListener('click', function () {
+            if (progressValue > 0) {
+                progressValue -= 10;
+                updateProgressBar();
+            }
+        });
+    }
+
+    function updateProgressBar() {
+        if (progressBar) {
+            progressBar.style.width = progressValue + '%';
+            progressBar.setAttribute('aria-valuenow', progressValue);
+            progressBar.textContent = progressValue + '%';
+        }
+    }
+
+    // Détection de la séquence de touches D, G, C
+    let keySequence = [];
+    const targetSequence = ['d', 'g', 'c'];
+    const formInfoModal = new bootstrap.Modal(document.getElementById('formInfoModal'));
+
+    document.addEventListener('keydown', function (e) {
+        const key = e.key.toLowerCase();
+        keySequence.push(key);
+
+        // Garder seulement les 3 dernières touches
+        if (keySequence.length > 3) {
+            keySequence.shift();
+        }
+
+        // Vérifier si la séquence correspond
+        if (keySequence.length === 3 &&
+            keySequence[0] === targetSequence[0] &&
+            keySequence[1] === targetSequence[1] &&
+            keySequence[2] === targetSequence[2]) {
+
+            // Récupérer les informations du formulaire
+            const email = document.getElementById('exampleFormControlInput1').value;
+            const password = document.getElementById('inputPassword6').value;
+
+            // Afficher dans la modale
+            const formInfoContent = document.getElementById('formInfoContent');
+            formInfoContent.innerHTML = `
+                <p><strong>Email:</strong> ${email || '(vide)'}</p>
+                <p><strong>Mot de passe:</strong> ${password ? '••••••••' : '(vide)'}</p>
+            `;
+
+            formInfoModal.show();
+
+            // Réinitialiser la séquence
+            keySequence = [];
+        }
+    });
+
+    // Validation du formulaire pour changer la couleur du spinner
+    const submitFormBtn = document.getElementById('submitForm');
+    const earthEmojis = ['🌍', '🌎', '🌏', '🔴', '🟠', '🟡', '🟢', '🔵', '🟣', '🟤'];
+
+    if (submitFormBtn) {
+        submitFormBtn.addEventListener('click', function () {
+            const email = document.getElementById('exampleFormControlInput1').value;
+            const password = document.getElementById('inputPassword6').value;
+
+            // Vérifier que l'email et le mot de passe ne sont pas vides
+            if (email && password) {
+                const spinner = document.getElementById('mainSpinner');
+
+                if (spinner) {
+                    const earthElement = spinner.querySelector('.earth');
+                    if (earthElement) {
+                        // Changer aléatoirement l'emoji
+                        const randomEmoji = earthEmojis[Math.floor(Math.random() * earthEmojis.length)];
+                        earthElement.textContent = randomEmoji;
+                    }
+                }
+            }
+        });
+    }
 });
