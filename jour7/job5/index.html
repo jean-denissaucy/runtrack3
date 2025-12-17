@@ -18,11 +18,28 @@
       </ul>
     </div>
   </nav>
+  
+  <!-- Carousel de forêts du monde -->
+  <div class="carousel carousel-slider" style="height: 400px;">
+    <a class="carousel-item" href="#one!">
+      <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=1600&q=80" alt=" Forêt amazonienne">
+      <div style="position: absolute; bottom: 20px; left: 20px; color: white; font-size: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Forêt Amazonienne Brésil</div>
+    </a>
+    <a class="carousel-item" href="#two!">
+      <img src="https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1600&q=80" alt="Forêt boréale">
+      <div style="position: absolute; bottom: 20px; left: 20px; color: white; font-size: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Forêt Boréale Alaska</div>
+    </a>
+    <a class="carousel-item" href="#three!">
+      <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80" alt="Forêt tropicale">
+      <div style="position: absolute; bottom: 20px; left: 20px; color: white; font-size: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Forêt Tropicale</div>
+    </a>
+    <a class="carousel-item" href="#four!">
+      <img src="https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=1600&q=80" alt="Forêt de bambous">
+      <div style="position: absolute; bottom: 20px; left: 20px; color: white; font-size: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Forêt de Bambous Arashiyama, Japon</div>
+    </a>
+  </div>
 </header>
 <main>
-  <div class="parallax-container" style="height: 500px;">
-    <div class="parallax"><img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=1600&q=80" alt="Forêt"></div>
-  </div>
   <div class="container" style="margin-top: 30px;">
     <h3 class="center-align">L'Histoire du Café</h3>
     <div class="video-container">
@@ -57,10 +74,21 @@
 
 
 <footer>
+  <div class="parallax-container" style="height: 500px;">
+    <div class="parallax"><img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80" alt="Forêt"></div>
+  </div>
 
+  <nav class="green darken-4">
+    <div class="nav-wrapper">
+     <a href="#modal-question" class="brand-logo center modal-trigger"><i class="material-icons left">local_cafe</i>Merci de votre visite !<i class="material-icons right">local_cafe</i></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
 
-
-
+        <li><a href="https://www.mirabiliscafe.fr/blog/cafe/les-meilleurs-cafes-du-monde/">Meilleurs Cafés</a></li>
+        <li><a href="https://www.maxicoffee.com/cafe-pour-professionnels-c-1545_1153.html?mccp1=Paid&mccp2=Google&mccp3=SEA&mccp4=Pro&mccp5=Hors+Marque&mccp6=BtoB&mccp7=BtoB+-+Caf%C3%A9s+-+pro&mccp8=G+-+caf%C3%A9+pro&mccpid=1715866714330-7454&gad_source=1&gad_campaignid=20184214765&gbraid=0AAAAACy9QnqepLOAFxM-ufjGOdbBompEc&gclid=Cj0KCQiAxonKBhC1ARIsAIHq_luvSceZ6EiNEpCbuoLtNwx7WvRqHdH1T_cBcPwB8lZTGRyy94J5o0oaAnYiEALw_wcB&reloaded=1">maxicoffee</a></li>
+        <li><a href="https://fr.wikipedia.org/wiki/Caf%C3%A9">Histoire</a></li>
+      </ul>
+    </div>
+  </nav>
 </footer>
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -71,6 +99,19 @@
       
       var modals = document.querySelectorAll('.modal');
       var modalInstances = M.Modal.init(modals);
+      
+      // Initialiser le carousel
+      var carousel = document.querySelectorAll('.carousel');
+      var carouselInstances = M.Carousel.init(carousel, {
+        fullWidth: true,
+        indicators: true,
+        duration: 200
+      });
+      
+      // Auto-play du carousel
+      setInterval(function() {
+        carouselInstances[0].next();
+      }, 4000);
     });
   </script>
 </body>
