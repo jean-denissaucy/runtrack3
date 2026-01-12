@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réveil - Time Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">TimeApps</div>
+            <ul class="nav-links">
+                <li><a href="réveil.html">Réveil</a></li>
+                <li><a href="horloge.html">Horloge</a></li>
+                <li><a href="minuteur.html">Minuteur</a></li>
+                <li><a href="chronomètre.html">Chronomètre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="alarm-container">
+            <h1 class="alarm-title">Réveil</h1>
+            
+            <div class="current-time" id="currentTime">00:00:00</div>
+            
+            <div class="alarm-setting">
+                <label for="alarmTime">Définir l'heure du réveil :</label>
+                <input type="time" id="alarmTime">
+            </div>
+
+            <div class="alarm-buttons">
+                <button class="btn btn-set" id="setAlarm">Programmer</button>
+                <button class="btn btn-stop" id="stopAlarm">Arrêter</button>
+            </div>
+
+            <div class="alarm-status" id="alarmStatus"></div>
+        </div>
+
+        <a href="index.html" class="back-link">Retour à l'accueil</a>
+    </div>
+
+    <script src="scrip.js/réveil.js"></script>
+</body>
+</html>

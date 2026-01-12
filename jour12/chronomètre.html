@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronomètre - Time Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">TimeApps</div>
+            <ul class="nav-links">
+                <li><a href="réveil.html">Réveil</a></li>
+                <li><a href="horloge.html">Horloge</a></li>
+                <li><a href="minuteur.html">Minuteur</a></li>
+                <li><a href="chronomètre.html">Chronomètre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="stopwatch-container">
+            <h1 class="stopwatch-title">Chronomètre</h1>
+            
+            <div class="stopwatch-display" id="stopwatchDisplay">00:00:00.00</div>
+            
+            <div class="stopwatch-buttons">
+                <button class="btn btn-start-stop" id="startStopBtn">Démarrer</button>
+                <button class="btn btn-lap" id="lapBtn" disabled>Tour</button>
+                <button class="btn btn-reset" id="resetBtn">Réinitialiser</button>
+            </div>
+
+            <div class="laps-container" id="lapsContainer">
+                <h2 class="laps-title">Tours</h2>
+                <div class="laps-list" id="lapsList"></div>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">Retour à l'accueil</a>
+    </div>
+
+    <script src="scrip.js/chronomètre.js"></script>
+</body>
+</html>

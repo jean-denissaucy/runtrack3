@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horloge - Time Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">TimeApps</div>
+            <ul class="nav-links">
+                <li><a href="réveil.html">Réveil</a></li>
+                <li><a href="horloge.html">Horloge</a></li>
+                <li><a href="minuteur.html">Minuteur</a></li>
+                <li><a href="chronomètre.html">Chronomètre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="clock-container">
+            <h1 class="clock-title">Horloge</h1>
+            
+            <div class="clock-digital" id="digitalClock">00:00:00</div>
+            
+            <div class="clock-analog" id="analogClock">
+                <div class="clock-face">
+                    <div class="hour-hand" id="hourHand"></div>
+                    <div class="minute-hand" id="minuteHand"></div>
+                    <div class="second-hand" id="secondHand"></div>
+                    <div class="center-dot"></div>
+                    
+                    <!-- Marqueurs d'heures -->
+                    <div class="hour-marker" style="transform: rotate(0deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(30deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(60deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(90deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(120deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(150deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(180deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(210deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(240deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(270deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(300deg) translateY(-90px)"></div>
+                    <div class="hour-marker" style="transform: rotate(330deg) translateY(-90px)"></div>
+                </div>
+            </div>
+            
+            <div class="clock-date" id="clockDate">Mercredi 8 Janvier 2026</div>
+        </div>
+
+        <a href="index.html" class="back-link">Retour à l'accueil</a>
+    </div>
+
+    <script src="scrip.js/horloge.js"></script>
+</body>
+</html>
